@@ -1,0 +1,8 @@
+pump_one:17
+pump_two:27
+pump_three:22
+pump_four:10
+pump_five:9
+pump_six:11
+led_red:12
+led_green:999

@@ -1,0 +1,14 @@
+[Unit]
+Description=Pytender API
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python -u bartenderAPI.py
+WorkingDirectory=/usr/local/lib/PytTender/api
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pytend
+
+[Install]
+WantedBy=multi-user.target

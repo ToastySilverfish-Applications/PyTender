@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!-- Hardware tester page -->
+<html>
+<head>
+	<!-- Metadata Goes Here -->
+	<title>Bartender_Main</title>
+	<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">
+	<link rel="stylesheet" media="screen and (min-device-width: 500px)" type="text/css" href="../css/bartender.css">
+	<link rel="stylesheet" media="screen and (max-device-width: 500px)" type="text/css" href="../css/bartender_m.css">
+	<script type="text/javascript" src="../js/apiCaller_tester.js"></script>
+  <script type="text/javascript" src="../js/pageSwitcher.js"></script>
+</head>
+<body>
+  <button class="back2main" id="b_m" type="button" onclick="gotoMain()">Main</button>
+  <div class="modal_1" id="modal1">
+      <strong><p id="modal_p"></p></strong>
+  </div>
+	<div class="hwt_button_div" > 
+		<button class="main-button center" id="b_pt1" type="button" onclick="test_pump_1()">Test Pump 1</button>
+		<button class="main-button center" id="b_pt2" type="button" onclick="test_pump_2()">Test Pump 2</button>
+    <button class="main-button center" id="b_pt3" type="button" onclick="test_pump_3()">Test Pump 3</button>
+		<button class="main-button center" id="b_pt4" type="button" onclick="test_pump_4()">Test Pump 4</button>
+    <button class="main-button center" id="b_pt5" type="button" onclick="test_pump_5()">Test Pump 5</button>
+		<button class="main-button center" id="b_pt6" type="button" onclick="test_pump_6()">Test Pump 6</button>
+    <button class="main-button center" id="b_lt1" type="button" onclick="test_light_red()">Test Red Light</button>
+	</div>
+</body>
+</html>
