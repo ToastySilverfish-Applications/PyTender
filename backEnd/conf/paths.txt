@@ -1,5 +1,5 @@
 python_all:/usr/local/PyTender/
-python_util:/usr/local/PyTender/util/
+python_util:/usr/local/PyTender/utils/
 python_html:/usr/local/PyTender/html/
 python_conf:/etc/PyTender/
 www_html:/var/www/html/html/
