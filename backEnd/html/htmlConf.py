@@ -2,7 +2,7 @@
 
 ##Imports
 import sys
-sys.path.append('/usr/local/lib/PyTender/utils')
+sys.path.append('/usr/local/PyTender/utils')
 from configBuilder import cb_getConfDict
 
 

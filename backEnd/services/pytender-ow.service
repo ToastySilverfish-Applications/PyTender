@@ -3,7 +3,7 @@ Description=Pytender API
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/python -u keepItMoving.py
+ExecStart=/usr/bin/python -u orderWatch.py
 WorkingDirectory=/usr/local/lib/PytTender/orders
 StandardOutput=inherit
 StandardError=inherit

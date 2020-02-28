@@ -1,7 +1,4 @@
-review and cleanup code
-  add error handling
-create contol script
-create keep it moving code
+create keep it moving code (orderWatch
 create installer/uninstaller
 create readme
 create add recipe page and logic

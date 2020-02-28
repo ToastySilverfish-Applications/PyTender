@@ -15,8 +15,8 @@ import shutil
 import logging
 
 ##Import Bartender Modules
-sys.path.append("/usr/local/lib/PyTender/utils")
-sys.path.append("/usr/local/lib/PyTender/orders/recipes")
+sys.path.append("/usr/local/PyTender/utils")
+sys.path.append("/usr/local/PyTender/orders/recipes")
 from configBuilder import cb_getConfDict
 from configBuilder import cb_createMenuFile
 from orders import *

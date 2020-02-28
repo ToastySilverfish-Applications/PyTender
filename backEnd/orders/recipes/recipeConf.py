@@ -2,7 +2,7 @@
 ###to work the various pumps and pour the drinks.
 
 import sys, time, subprocess
-sys.path.append("/usr/local/lib/PyTender/utils")
+sys.path.append("/usr/local/PyTender/utils")
 from ctrl_pumps import *
 from configBuilder import cb_getConfDict
 from configBuilder import cb_getPumps

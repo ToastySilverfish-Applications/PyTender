@@ -1,0 +1,10 @@
+python_all:/usr/local/PyTender/
+python_util:/usr/local/PyTender/util/
+python_html:/usr/local/PyTender/html/
+python_conf:/etc/PyTender/
+www_html:/var/www/html/html/
+www_orders:/var/www/html/html/orders/
+www_js:/var/www/html/js/
+www_css:/var/www/html/css/
+orders_ready:/usr/local/PyTender/orders/ready/
+orders_pending:/usr/local/PyTender/orders/pending/

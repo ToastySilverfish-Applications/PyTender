@@ -1,0 +1,5 @@
+PRODUCT    :    PyTender
+VERSION    :    1.00.00
+CREATED BY :    ToastySilverfish Applications
+LICENSE    :    Open
+GITHUB     :    https://github.com/ToastySilverfish-Applications/PyTender.git
